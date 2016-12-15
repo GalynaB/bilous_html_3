@@ -33,6 +33,7 @@ body {
 }
 
 .main-navigation {
+  font-size: 0;
   background-image: linear-gradient(90deg, #454545, #5e5e5e);
   margin-top: 40px;
 }
@@ -123,6 +124,7 @@ footer.container {
 }
 
 .footer-navigation {
+  font-size: 0;
   float: left;
   }
 
@@ -132,6 +134,7 @@ footer.container {
   }
 
 .footer-navigation a {
+  font-size: 13px;
   color: #000000;
   text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
