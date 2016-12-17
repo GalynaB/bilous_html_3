@@ -56,6 +56,7 @@ body {
   background-image: linear-gradient(90deg, #2e2e2e, #4a4a4a);
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
+  margin: 0 -1px;
 }
 
 /*MAIN*/
