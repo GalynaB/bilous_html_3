@@ -1,5 +1,5 @@
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 10px;
   color: #e6e6e6;
   background: #000000;
@@ -57,9 +57,12 @@ body {
 .country {
   font-size: 15px;
   text-align: center;
-  border: 5px ridge #979797;
   display: inline-block;
   margin-left: 5px;
+}
+
+.country img {
+  border: 5px ridge #979797;
 }
 
 .India,
