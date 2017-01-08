@@ -1,33 +1,39 @@
 body {
-  font-family: "Tahoma", sans-serif;
-  font-size: 10px;
   color: #e6e6e6;
   background: #000000;
+
+  font-family: "Tahoma", sans-serif;
+  font-size: 10px;
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
   display: table;
+  clear: both;
+
+  content: "";
 }
 
 .container {
-  background: url("../img/background.jpg") no-repeat 50% 50%;
   width: 960px;
   height: 883px;
   margin: 0 auto;
+
+  background: url("../img/background.jpg") no-repeat 50% 50%;
 }
 
 /*HEADER*/
 
 .logo {
-  text-align: center;
-  background: url("../img/palm tree.png") no-repeat 100% 50%;
+  float: left;
+
   width: 263px;
   height: 165px;
-  margin-left: 70px;
   margin-top: 57px;
-  float: left;
+  margin-left: 70px;
+
+  text-align: center;
+
+  background: url("../img/palm tree.png") no-repeat 100% 50%;
 }
 
 .logo img {
@@ -35,12 +41,13 @@ body {
 }
 
 .contacts {
-  font-size: 8px;
-  line-height: 12px;
-
   float: right;
+
   margin-top: 152px;
   margin-right: 70px;
+
+  font-size: 8px;
+  line-height: 12px;
 }
 
 .contacts span {
@@ -48,17 +55,21 @@ body {
 }
 
 .contacts a {
-  color: inherit;
   text-decoration: none;
+
+  color: inherit;
 }
 
 /*MAIN*/
 
 .country {
-  font-size: 15px;
-  text-align: center;
   display: inline-block;
+
   margin-left: 5px;
+
+  text-align: center;
+
+  font-size: 15px;
 }
 
 .country img {
@@ -84,6 +95,7 @@ footer p {
 }
 
 footer a {
-  color: inherit;
   text-decoration: none;
+
+  color: inherit;
 }
